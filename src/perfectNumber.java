@@ -1,7 +1,6 @@
 /**
- * @author: thrfur
- * @Description: 求完美数。
- * @CreateDate: 2021年11月2日14点47分
+ * @author thrfur
+ * 求完美数
  */
 
 public class perfectNumber {
@@ -11,9 +10,6 @@ public class perfectNumber {
     }
 }
 
-/**
- * @param: num 自定义的任意数值
- */
 class perfect {
     public void Number(int num) {
         for (int i = 1; i<=num; i++){
