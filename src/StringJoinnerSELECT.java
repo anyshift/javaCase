@@ -21,8 +21,8 @@ public class StringJoinnerSELECT {
      */
     static String buildSelectSql(String table, String[] fields){
         StringJoiner sj = new StringJoiner(", ", "SELECT ", " FROM " + table);
-        for (String sql:fields){
-            sj.add(sql);
+        for (String field:fields){
+            sj.add(field);
         }
         return sj.toString();
     }
