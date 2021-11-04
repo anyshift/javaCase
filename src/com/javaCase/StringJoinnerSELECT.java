@@ -1,3 +1,5 @@
+package com.javaCase;
+
 import java.util.StringJoiner;
 
 /**
