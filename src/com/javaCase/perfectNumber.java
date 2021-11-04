@@ -1,3 +1,5 @@
+package com.javaCase;
+
 /**
  * @author thrfur
  * 求完美数

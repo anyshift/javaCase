@@ -1,3 +1,5 @@
+package com.javaCase;
+
 /**
  * @author thrfur
  * 仿造 StringBuilder 设计一个链式操作。
