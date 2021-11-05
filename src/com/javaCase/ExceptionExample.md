@@ -2,23 +2,23 @@
 
 ```
 java.lang.Throwable
-     |---java.lang.Error  严重的异常，一般无需编写特定的代码去处理
-         |---OutOfMemoryError  内存耗尽
-         |---NoClassDefFoundError  无法加载某个Class
-         |---StackOverflowError  栈溢出
-     |---java.lang.Exception
+     |---java.lang.Error  //严重的异常，一般无需编写特定的代码去处理
+         |---OutOfMemoryError  //内存耗尽
+         |---NoClassDefFoundError  //无法加载某个Class
+         |---StackOverflowError  //栈溢出
+     |---java.lang.Exception  //该类异常需要捕获
          |---编译时异常(checked)
-             |---IOException  IO(输入输出)异常
-                 |---FileNotFoundException  文件未找到异常
-             |---ClassNotFoundException  类未找到异常
+             |---IOException  //IO(输入输出)异常
+                 |---FileNotFoundException  //文件未找到异常
+             |---ClassNotFoundException  //类未找到异常
          |---运行时异常(unchecked, RuntimeException)
-             |---NullPointerException  空指针异常
-             |---ArrayIndexOutOfBoundsException  数组越界异常
-             |---StringIndexOutOfBoundsException  字符串越界异常
-             |---ClassCastException  类型转换异常
-             |---NumberFormatException  数据格式异常
-             |---InputMismatchException  输入不匹配异常
-             |---ArithmeticException  算术异常
+             |---NullPointerException  //空指针异常
+             |---ArrayIndexOutOfBoundsException  //数组越界异常
+             |---StringIndexOutOfBoundsException  //字符串越界异常
+             |---ClassCastException  //类型转换异常
+             |---NumberFormatException  //数据格式异常
+             |---InputMismatchException  //输入不匹配异常
+             |---ArithmeticException  //算术异常
 ```
 
 ## NullPointerException
