@@ -8,3 +8,4 @@
 - [用接口实现工资税费计算](src/com/javaCase/incomeTax.java)
 - [自建链式操作](src/com/javaCase/chainOperation.java)
 - [使用StringJoinner构造SELECT语句](src/com/javaCase/StringJoinnerSELECT.java)
+- [Java常见异常](src/com/javaCase/ExceptionExample.md)
