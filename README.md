@@ -12,3 +12,4 @@
 - [reflect-method的使用](src/com/javaCase/reflectMethod.java)
 - [reflect-filed的使用](src/com/javaCase/reflectField/reflectFiled.java)
 - [冒泡排序之比较大小](src/com/javaCase/compareSize.java)
+- [动态代理的使用](src/com/javaCase/InvocationHandler/proxyCase_1.java)
