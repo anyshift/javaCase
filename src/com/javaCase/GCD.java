@@ -7,7 +7,7 @@ import java.util.Scanner;
  * 最大公约数【Greatest Common Divisor(GCD)】，因此用GCD代表最大公约数。
  */
 
-public class maxGCD {
+public class GCD {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();

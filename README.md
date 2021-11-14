@@ -15,4 +15,6 @@
 - [动态代理的使用](src/com/javaCase/InvocationHandler/proxyCase_1.java)
 - [注解初体验](src/com/javaCase/Annotation/annotationRangeCheck.java)
 - [闰年平年](src/com/javaCase/leapYear.java)
-- [最大公约数](src/com/javaCase/maxGCD.java)
+- [最大公约数](src/com/javaCase/GCD.java)
+- [最小公倍数](src/com/javaCase/LCM.java)
+- [泛型接口之实现任意类型数组排序](src/com/javaCase/compareToTest/compareToTest.java)
