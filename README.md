@@ -18,3 +18,4 @@
 - [最大公约数](src/com/javaCase/GCD.java)
 - [最小公倍数](src/com/javaCase/LCM.java)
 - [泛型接口之实现任意类型数组排序](src/com/javaCase/compareToTest/compareToTest.java)
+- [输出金字塔](src/com/javaCase/getTriangle.java)
