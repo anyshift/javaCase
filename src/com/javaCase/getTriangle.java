@@ -20,13 +20,16 @@ public class getTriangle {
         int type = sc.nextInt();
         switch (type) {
             case 1:
+                System.out.println("");
                 triangle.normalTriangle();
                 break;
             case 2:
+                System.out.println("");
                 triangle.reverseTriangle();
                 break;
             default:
                 System.out.println("输入有误...");
+                break;
         }
     }
 }
@@ -42,7 +45,7 @@ class Triangle{
             for (int j = 0; j < layer - i; j++) { //每行空格数
                 System.out.print(" ");
             }
-            for (int k = 0; k < (i*2)-1; k++) { //每行符号数(比前一行多两个)
+            for (int k = 0; k < (i*2)-1; k++) { //每行符号数
                 System.out.print("*");
             }
             System.out.println(""); //每输出完一行就换行
@@ -50,6 +53,14 @@ class Triangle{
     }
 
     public void reverseTriangle() {
-        // TODO
+        for (int i = 0; i < layer; i++) { //行数
+            for (int j = 0; j <= i-1; j++) { //每行空格数
+                System.out.print(" ");
+            }
+            for (int k = 0; k < 2*(layer-i)-1; k++) { //每行符号数
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
     }
 }
