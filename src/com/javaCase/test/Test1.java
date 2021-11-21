@@ -1,4 +1,4 @@
-package com.javaCase.test;
+package com.javaCase.TEST;
 
 import java.util.*;
 
