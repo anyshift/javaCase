@@ -29,6 +29,11 @@ class Person {
         this.age = age;
     }
 
+    /**
+     * 覆写euqals()方法
+     * @param obj
+     * @return 匹配结果
+     */
     public boolean equals(Object obj) {
         if (obj instanceof Person) {
             Person p = (Person) obj;
@@ -36,6 +41,10 @@ class Person {
         } else return false;
     }
 
+    /**
+     * 覆写hashCode()方法
+     * @return
+     */
     public int hashCode() {
         return Objects.hash(name, age);
     }
