@@ -29,7 +29,6 @@ public class TreeMapTest_1 {
 
 class Person {
     public String name;
-    public int age;
     public Person(String name) {
         this.name = name;
     }
