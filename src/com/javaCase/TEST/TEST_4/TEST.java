@@ -27,7 +27,7 @@ public class TEST {
         for (Message message: received) {  //把形参传来的received遍历给同样是Message类型的message
             if (!set.contains(message.sequence)) {  //如果set集合里面没有相同的sequence，则执行
                 set.add(message.sequence); //将不重复的sequence(Key值)添加进set中
-                receiveds.add(message); //将不重复的received添加到receiveds中
+                receiveds.add(message); //将筛选后不重复的message添加到receiveds中
             }//如果set集合里存在相同的sequence，则不执行
         }
         return receiveds; //返回ArrayList集合
