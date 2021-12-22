@@ -21,3 +21,4 @@
 - [输出金字塔](src/com/javaCase/getTriangle.java)
 - [打印乘法表](src/com/javaCase/multiplicationTable.java)
 - [递归求和](src/com/javaCase/Recursion.java)
+- [今天是今年的第几天](src/com/javaCase/TheDayOfTheYear.java)
