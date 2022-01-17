@@ -9,7 +9,7 @@ public class primeNumbers {
     public static void main(String[] args) {
         getPrimeNumbers(1000);
     }
-    public static void getPrimeNumbers(int num){
+    static void getPrimeNumbers(int num){
         for (int i = 2; i < num; i++){
             boolean flag = true;
             for (int j = 2; j <= Math.sqrt(i); j++){
