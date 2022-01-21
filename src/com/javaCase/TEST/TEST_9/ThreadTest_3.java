@@ -16,7 +16,7 @@ class NumIncrease implements Callable {
 
     @Override
     public Object call() throws Exception {
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println(i);
             sum += i;
         }
@@ -39,9 +39,8 @@ public class ThreadTest_3 {
         //新建线程用于执行NumIncrease里的call()
         new Thread(futureTask).start();
 
-        //得到call()的返回值内容
         try {
-            Object sum = futureTask.get();
+            Object sum = futureTask.get(); //得到call()的返回值内容
             System.out.println("sum=" + sum);
         } catch (InterruptedException e) {
             e.printStackTrace();
