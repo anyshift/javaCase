@@ -1,6 +1,6 @@
 ```
 /**
- * @author: thrfur
+ * @author: THRFUR
  * Java 小案例，每日一练(尽量)。
  */
 ```
@@ -23,3 +23,4 @@
 - [递归求和](src/com/javaCase/Recursion.java)
 - [今天是今年的第几天](src/com/javaCase/TheDayOfTheYear.java)
 - [求质数](src/com/javaCase/primeNumbers.java)
+- [求最大相同字符串](src/com/javaCase/getMaxSameString.java)
