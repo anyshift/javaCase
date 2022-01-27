@@ -25,3 +25,4 @@
 - [求质数](src/com/javaCase/primeNumbers.java)
 - [求最大相同字符串](src/com/javaCase/getMaxSameString.java)
 - [Comparable与Comparator](src/com/javaCase/ComparableAndComparator)
+- [获取字符出现的次数](src/com/javaCase/CharacterRepeatNumbers.java)
