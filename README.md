@@ -23,6 +23,7 @@
 - [递归求和](src/com/javaCase/Recursion.java)
 - [今天是今年的第几天](src/com/javaCase/TheDayOfTheYear.java)
 - [求质数](src/com/javaCase/primeNumbers.java)
-- [求最大相同字符串](src/com/javaCase/getMaxSameString.java)
+- [20# 求最大相同字符串](src/com/javaCase/getMaxSameString.java)
 - [Comparable与Comparator](src/com/javaCase/ComparableAndComparator)
 - [获取字符出现的次数](src/com/javaCase/CharacterRepeatNumbers.java)
+- [获取Class实例的四种方式](src/com/javaCase/TEST/TEST_12/getClassTest.java)
