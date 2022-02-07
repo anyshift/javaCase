@@ -1,4 +1,4 @@
-package com.javaCase.TEST.TSET_11;
+package com.javaCase.TEST.TEST_11;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

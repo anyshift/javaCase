@@ -1,4 +1,4 @@
-package com.javaCase.TEST.TSET_11;
+package com.javaCase.TEST.TEST_11;
 
 /**
  * @author THRFUR

@@ -9,13 +9,6 @@ import java.lang.reflect.Proxy;
  * 第一个有关动态代理的案例
  */
 
-public class proxyCase_1 {
-    public static void main(String[] args) {
-        ProxyHandler proxy = new ProxyHandler();
-        People people = (People) proxy.bind(new Man());
-        people.Name();
-    }
-}
 interface People {
     void Name();
 }
@@ -28,7 +21,6 @@ class ProxyHandler implements InvocationHandler {
     private Object targetHandler;
 
     /**
-     *
      * @param target 绑定的对象
      * @return 代理类
      */
@@ -51,6 +43,7 @@ class ProxyHandler implements InvocationHandler {
      * @throws Throwable Throwable是Error和Exception的父类，用来定义所有可以作为异常被抛出来的类。
      */
 
+    @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 
         /* 在调用具体函数方法前，执行功能处理 */
@@ -66,5 +59,13 @@ class ProxyHandler implements InvocationHandler {
         }
 
         return result;
+    }
+}
+
+public class proxyCase_1 {
+    public static void main(String[] args) {
+        ProxyHandler proxy = new ProxyHandler();
+        People people = (People) proxy.bind(new Man());
+        people.Name();
     }
 }
