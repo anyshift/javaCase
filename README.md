@@ -28,3 +28,5 @@
 - [获取字符出现的次数](src/com/javaCase/CharacterRepeatNumbers.java)
 - [获取Class实例的四种方式](src/com/javaCase/TEST/TEST_12/getClassTest.java)
 - [BF算法](src/com/javaCase/Index_BF.java)
+- [四位数N的九倍是其反序，求N](src/com/javaCase/ReverseOrder.java)
+- [N至少多大时，不等式 (1/1+1/2+1/3+···+1/n > 6) 成立](src/com/javaCase/GetN.java)
