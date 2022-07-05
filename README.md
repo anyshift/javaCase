@@ -30,3 +30,4 @@
 - [BF算法](src/com/javaCase/Index_BF.java)
 - [四位数N的九倍是其反序，求N](src/com/javaCase/ReverseOrder.java)
 - [N至少多大时，不等式 (1/1+1/2+1/3+···+1/n > 6) 成立](src/com/javaCase/GetN.java)
+- [SHA-256加密算法](src/com/javaCase/EncodeSHA256.java)
